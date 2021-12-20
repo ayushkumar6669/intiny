@@ -18,7 +18,6 @@ npm install -D nodemon
 
 ### Add mongoURI ,Google client ID and Secret, smtp config for sending emails 
 
-# Added Options
 
 ![Image1](screenshots/intiny_main_page.png)
 ![Image2](screenshots/dashboard.png)
