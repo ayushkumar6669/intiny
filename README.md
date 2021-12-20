@@ -1,5 +1,9 @@
 # Intiny - A Short Url Service In Node JS With Data Visualization
 
+
+https://user-images.githubusercontent.com/66771124/146844620-4c117234-d569-4bc6-9aa0-34eacaf02914.mp4
+
+
 This repo contains code for a Short URl Service Coded In NODE JS !
 
 ## 1. USAGE
