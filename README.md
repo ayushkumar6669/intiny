@@ -43,12 +43,12 @@ A deployed version can be checked here: https://intiny.herokuapp.com/
 ## Deployment
 For Deployment, we have used `Heroku` as a platform.
 
-### Project Setup
-## Install All Packages
+# Project Setup
+### Install All Packages
 ```bash
 npm install express ejs mongoose bcryptjs connect-flash cookie-parser express-session csurf memorystore passport passport-local passport-google-oauth20 nodemailer
 ```
-## Install Nodemon For Development
+### Install Nodemon For Development
 
 ```bash
 npm install -D nodemon
@@ -74,6 +74,7 @@ If everything is done in order then this will open the website in your local mac
    git push [url to your repository] master/main 
 7. Now your commit will be successfully pushed to the main branch of your GitHub repository.
 8. The changes will automatically be deployed in the web application.
+
 ![Image1](screenshots/intiny_main_page.png)
 ![Image2](screenshots/dashboard.png)
 
