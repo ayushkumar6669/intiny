@@ -46,6 +46,14 @@ app.use(function (req, res, next) {
 
 app.use(require('./controller/routes.js'));
 
-const PORT = process.env.PORT || 8000;
+let port = process.env.PORT;
+if (port == null || port==""){
+    port = 8000;
+}
+app.listen(port, function() {
+console.log("Server has started successfully");
+});
 
-app.listen(PORT, () => console.log("Server Started At " + PORT));
+// const PORT = process.env.PORT || 8000;
+
+// app.listen(PORT, () => console.log("Server Started At " + PORT));
