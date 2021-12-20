@@ -121,32 +121,32 @@
                               <form action="/create" , method="POST">
                                 <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
                                 <div class="mb-3">
-                                  <label for="url">Enter Long Url</label>
+                                  <label for="url">Enter long URL</label>
                                   <input
                                     type="url"
                                     class="form-control form-control-lg"
                                     name="original"
                                     id="url"
                                     autocomplete="off"
-                                    placeholder="Original Long URL"
+                                    placeholder="Original long URL"
                                   />
                                 </div>
                                 <div class="mb-3">
-                                  <label for="short">Your Short slug</label>
+                                  <label for="short">Your short slug</label>
                                   <input
                                     type="text"
                                     class="form-control form-control-lg"
                                     name="short"
                                     id="short"
                                     autocomplete="off"
-                                    placeholder="short"
+                                    placeholder="Slug"
                                   />
                                 </div>
                                 <div class="d-grid gap-3 mb-3">
                                   <input
                                     type="submit"
                                     class="btn btn-lg btn-block btn-outline-primary"
-                                    value="Create Url"
+                                    value="Shorten"
                                   />
                                  
                                 </div>
@@ -168,7 +168,7 @@
 
     <div class="container p-5"> 
 
-      <h2 class="text-center">Your Urls, Performance and Analytics</h2>
+      <h2 class="text-center">Your URLs, Performance & Analytics</h2>
       <div class="row row-cols-1 g-4 text-center">
         
         <% if(urls.length != 0){ %>

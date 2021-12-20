@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-   
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,17 +11,16 @@
     <!-- Bootstrap CDN  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <title>Signup</title>
+    <title>Shortly</title>
     <style>
         body {
             font-family: 'Recursive', sans-serif;
             font-size: larger;
-            background-color: antiquewhite;
         }
 
         .customborder {
             border-radius: 2%;
-            border: 2px solid blueviolet;
+            border: 2px solid #E95420;
         }
     </style>
 </head>
@@ -32,7 +31,7 @@
     <nav class="navbar navbar-expand-lg navbar-light p-4">
         <div class="container">
             <a class="navbar-brand" href="/">
-                <img src="/static/images/images.png" width="150" height="130" alt="">
+                <img src="/static/images/logo.png" width="150" height="36" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -86,9 +85,9 @@
                             <input type="password" class="form-control form-control-lg" name="confirmpassword"
                                 id="confirmpassword" autocomplete="off" placeholder="Confirm Password">
                         </div>
-                         <div class="d-grid gap-3 mb-3">
+                        <div class="d-grid gap-3 mb-3">
                             <input type="submit" class="btn btn-lg btn-outline-primary" value="Register">
-                            <!-- <a class="btn btn-lg btn-success" href="">Continue With Google</a> -->
+                            <!-- <a class="btn btn-lg btn-success" href="/google">Continue With Google</a> -->
                         </div>
                         <p>Already Registered ? <a class="card-link" href="/login">LOGIN Here</a> </p>
                     </form>
