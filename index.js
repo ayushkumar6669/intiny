@@ -53,7 +53,3 @@ if (port == null || port==""){
 app.listen(port, function() {
 console.log("Server has started successfully");
 });
-
-// const PORT = process.env.PORT || 8000;
-
-// app.listen(PORT, () => console.log("Server Started At " + PORT));
