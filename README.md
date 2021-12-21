@@ -31,7 +31,7 @@ A deployed version can be checked here: https://intiny.herokuapp.com/
 2. Sourish Pal
 3. Gaurav Kumar
 
-* `Frontend + JavaScript Functionality` : ***Gourav Kumar***
+* `Frontend + JavaScript Functionality` : ***Gaurav Kumar***
 * `Database + Backend` : ***Sourish Pal***
 * `Backend + Deployment` : ***Ayush Kumar***
 
