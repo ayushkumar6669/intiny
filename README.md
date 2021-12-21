@@ -36,7 +36,7 @@ A deployed version can be checked here: https://intiny.herokuapp.com/
 * `Backend + Deployment` : ***Ayush Kumar***
 
 ## Tech Stack Used
-1. `Frontend` : HTML5, CSS3, Javascript, Bootstrap, AJAX
+1. `Frontend` : EJS, CSS3, Javascript, Bootstrap, AJAX
 2. `Backend` : Node.js
 3. `Database` : MongoDB
 
